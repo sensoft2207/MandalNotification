@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/tools"
+    card_view:cardElevation="10dp"
+    android:padding="10dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:gravity="center|left">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    android:id="@+id/icon_avata"
+                                    android:layout_width="0dp"
+                                    android:layout_height="50dp"
+                                    android:layout_margin="10dp"
+                                    android:layout_weight="1"
+                                    android:src="@drawable/smartphone"
+                                    app:civ_border_color="@color/colorPrimary"/>
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="6"
+                                android:layout_gravity="center|top|right"
+                                android:paddingTop="10dp"
+                                android:paddingRight="20dp">
+
+                                <com.android.mandalchat.font.MyTextviewLight
+                                    android:id="@+id/txtJoining"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="4"
+                                    android:gravity="center|right"
+                                    android:textAllCaps="true"
+                                    android:text="Joining : 2-07-2018"
+                                    android:textColor="#FF873d"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"  />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:gravity="center">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/user_mail"
+                                    android:tint="#FF873d"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:gravity="center">
+
+                                <com.android.mandalchat.font.MyTextviewLight
+                                    android:id="@+id/txtName"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="4"
+                                    android:gravity="center|left"
+                                    android:textAllCaps="true"
+                                    android:text="Vishal"
+                                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:gravity="center">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/profession"
+                                    android:tint="#FF873d"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="10"
+                                android:gravity="center">
+
+                                <com.android.mandalchat.font.MyTextviewLight
+                                    android:id="@+id/txtProfession"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="4"
+                                    android:gravity="center|left"
+                                    android:textAllCaps="true"
+                                    android:text="Vishal"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ln_click"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/grey_800"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/notification"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/grey_500">
+
+                <LinearLayout
+                    android:id="@+id/ln_call"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/call"
+                        android:tint="@color/grey_800"
+                        android:padding="8dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ln_chat"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/chat_icon"
+                        android:tint="@color/grey_800"
+                        android:padding="8dp"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/ln_remove"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/delete"
+                        android:tint="@color/grey_800"
+                        android:padding="8dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

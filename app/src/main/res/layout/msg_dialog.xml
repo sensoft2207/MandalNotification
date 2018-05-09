@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/rectangle_shap">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="7">
+
+                    <com.android.mandalchat.font.MyEditText
+                        android:id="@+id/ed_message"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#0000"
+                        android:hint="MESSAGE"
+                        android:singleLine="true"
+                        android:inputType="textCapWords|textCapSentences"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="5dp"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/clear_text"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/clear"
+                        android:padding="10dp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Write your own or select below message"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="5dp"
+                        android:textColor="@color/colorPrimary"
+                        android:paddingRight="5dp"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tv_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="Please come"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:background="@drawable/only_line"/>
+
+                    <TextView
+                        android:id="@+id/tv_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="Can I come?"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/only_line"/>
+
+                    <TextView
+                        android:id="@+id/tv_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="Hi"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/only_line"/>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tv_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="Good morning"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/only_line"/>
+
+                    <TextView
+                        android:id="@+id/tv_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="Good afternoon"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/only_line"/>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tv_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="Good evening"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/only_line"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tv_send_money"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/background_login_btn"
+                    android:gravity="center"
+                    android:text="SEND"
+                    android:textAllCaps="true"
+                    android:textColor="#ffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tv_close"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/background_login_btn"
+                    android:gravity="center"
+                    android:text="CLOSE"
+                    android:textAllCaps="true"
+                    android:textColor="#ffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

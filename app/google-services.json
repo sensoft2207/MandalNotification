@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "45635993859",
+    "firebase_url": "https://mandalchat.firebaseio.com",
+    "project_id": "mandalchat",
+    "storage_bucket": "mandalchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45635993859:android:c78b0651e5c33132",
+        "android_client_info": {
+          "package_name": "com.android.mandalchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45635993859-jh6qah8kk9jrhidq8nkso41tsarr1aim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxzcN9pEK1JDAnza7x3cU0r5HV2JypWcE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:layout_width="320dp"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_add"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="#2ea67f"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="7">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="2">
+
+                                <com.android.mandalchat.font.MyTextviewLight
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="Sign Up"
+                                    android:textSize="25sp"
+                                    android:gravity="center|bottom"
+                                    android:textStyle="bold"
+                                    android:textColor="#ffff"/>
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="7"
+                                android:layout_marginTop="20dp"
+                                android:orientation="vertical">
+
+
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColorHint="#f0f7f4"
+                                    android:theme="@style/TextLabel">
+
+                                    <com.android.mandalchat.font.MyEditText
+                                        android:id="@+id/et_username"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/selector_bg_edit_2"
+                                        android:hint="@string/Username"
+                                        android:inputType="textEmailAddress"
+                                        android:paddingBottom="10dp"
+                                        android:paddingTop="10dp"
+                                        android:textColor="#ffff"
+                                        android:textCursorDrawable="@drawable/bg_input_cursor_2"
+                                        android:textSize="13sp" />
+                                </android.support.design.widget.TextInputLayout>
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColorHint="#f0f7f4"
+                                    android:layout_marginTop="10dp"
+                                    android:theme="@style/TextLabel">
+
+                                    <com.android.mandalchat.font.MyEditText
+                                        android:id="@+id/et_password"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/selector_bg_edit_2"
+                                        android:hint="@string/Password"
+                                        android:inputType="textPassword"
+                                        android:paddingBottom="10dp"
+                                        android:paddingTop="10dp"
+                                        android:textColor="#f0f7f4"
+                                        android:textCursorDrawable="@drawable/bg_input_cursor_2"
+                                        android:textSize="13sp" />
+                                </android.support.design.widget.TextInputLayout>
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColorHint="#f0f7f4"
+                                    android:layout_marginTop="10dp"
+                                    android:theme="@style/TextLabel">
+
+                                    <com.android.mandalchat.font.MyEditText
+                                        android:id="@+id/et_mobile"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/selector_bg_edit_2"
+                                        android:hint="@string/mobile_number"
+                                        android:inputType="number"
+                                        android:maxLength="10"
+                                        android:paddingBottom="10dp"
+                                        android:textColor="#f0f7f4"
+                                        android:paddingTop="10dp"
+                                        android:textCursorDrawable="@drawable/bg_input_cursor_2"
+                                        android:textSize="13sp" />
+                                </android.support.design.widget.TextInputLayout>
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColorHint="#f0f7f4"
+                                    android:layout_marginTop="10dp"
+                                    android:theme="@style/TextLabel">
+
+                                    <com.android.mandalchat.font.MyEditText
+                                        android:id="@+id/et_joining"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/selector_bg_edit_2"
+                                        android:hint="@string/joining_d"
+                                        android:paddingBottom="10dp"
+                                        android:paddingTop="10dp"
+                                        android:textColor="#ffff"
+                                        android:editable="false"
+                                        android:focusable="false"
+                                        android:inputType="none"
+                                        android:textCursorDrawable="@drawable/bg_input_cursor_2"
+                                        android:textSize="13sp" />
+                                </android.support.design.widget.TextInputLayout>
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textColorHint="#f0f7f4"
+                                    android:layout_marginTop="10dp"
+                                    android:theme="@style/TextLabel">
+
+                                    <com.android.mandalchat.font.MyEditText
+                                        android:id="@+id/et_profession"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="@drawable/selector_bg_edit_2"
+                                        android:hint="@string/profession"
+                                        android:inputType="textEmailAddress"
+                                        android:paddingBottom="10dp"
+                                        android:paddingTop="10dp"
+                                        android:textColor="#ffff"
+                                        android:textCursorDrawable="@drawable/bg_input_cursor_2"
+                                        android:textSize="13sp" />
+                                </android.support.design.widget.TextInputLayout>
+
+
+
+                            </LinearLayout>
+
+
+
+                        </LinearLayout>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <com.android.mandalchat.font.MyButtonBlack
+                            android:id="@+id/bt_go"
+                            android:layout_width="150dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/bt_shape_2"
+                            android:stateListAnimator="@drawable/state_list_animator_z"
+                            android:text="@string/go"
+                            android:textColor="#2fa881"
+                            android:elevation="10dp"
+                            android:onClick="clickRegister"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:onClick="clickBackLogin"
+            android:src="@drawable/plus_x"
+            android:transitionName="loginFab"
+            app:fabSize="normal" />
+    </FrameLayout>
+
+
+</RelativeLayout>

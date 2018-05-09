@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"
+                    android:background="@drawable/rectangle_shap">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="2"
+                            android:paddingLeft="30dp"
+                            android:gravity="center"
+                            android:paddingRight="30dp">
+
+                            <com.android.mandalchat.font.MyTextviewLight
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Logout"
+                                android:textSize="20sp"
+                                android:gravity="center"
+                                android:textColor="@color/colorAccent"
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="3"
+                            android:paddingLeft="30dp"
+                            android:gravity="center"
+                            android:paddingRight="30dp">
+
+                            <com.android.mandalchat.font.MyTextviewLight
+                                android:id="@+id/tv_dialog_scror_display"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Are You sure you want to logout?"
+                                android:gravity="center"
+                                android:textStyle="bold"
+                                android:textSize="15sp"
+                                android:textColor="#000000"
+                                android:paddingTop="15dp"
+                                android:paddingBottom="15dp"
+                                android:elevation="10dp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:gravity="center">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                    <com.android.mandalchat.font.MyTextviewLight
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="YES"
+                                        android:gravity="center"
+                                        android:textStyle="normal"
+                                        android:textColor="#ffff"
+                                        android:background="@drawable/rect_logout"
+                                        android:id="@+id/tv_exit_yes" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:gravity="center">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp">
+
+                                    <com.android.mandalchat.font.MyTextviewLight
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="NO"
+                                        android:gravity="center"
+                                        android:textStyle="normal"
+                                        android:textColor="#ffff"
+                                        android:background="@drawable/rect_logout"
+                                        android:id="@+id/tv_exit_no" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</LinearLayout>
